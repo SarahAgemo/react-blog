@@ -21,7 +21,7 @@ function TopBar() {
       <div className='topRight'>
         <img 
         className='topImg'
-        src="https://lh3.googleusercontent.com/a/ACg8ocJ3hPzbWs7UBJTedI6bZ2YpFoQYwMqscUf3WpJ23gQDhXeh16k=s432-c-no" alt="" />
+        src="https://avatars.githubusercontent.com/u/160914323?v=4" alt="" />
         <i className=" topSearchIcon fas fa-search"></i>
       </div>
     </div>

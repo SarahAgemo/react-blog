@@ -4,8 +4,8 @@ function SideBar() {
   return (
     <div className='sidebar'>
       <div className="sideBarItem">
-        <span>ABOUT ME</span>
-        <img src="https://lh3.googleusercontent.com/a/ACg8ocJ3hPzbWs7UBJTedI6bZ2YpFoQYwMqscUf3WpJ23gQDhXeh16k=s432-c-no" alt="" />
+        <span className='sideBarTitle'>ABOUT ME</span>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEQKR5ApUB9LQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685175752709?e=1731542400&v=beta&t=ZXW_uDnL3F1npVUE0RqF_jKifDlcL47qQ9ufHiv0zqg" alt="Pic of myself" />
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reprehenderit sequi deleniti perferendis a cum, enim quae, quo incidunt voluptas nostrum accusamus ea rerum veniam modi porro at nesciunt provident.
       </div>
 
