@@ -58,3 +58,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.SideBarIcon{
+    font-size:20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
