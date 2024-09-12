@@ -1,6 +1,6 @@
 import './SinglePost.css'
 
-export default function SinglePost() {
+ function SinglePost() {
   return (
     <div className='singlePost'>
       <div className="singlePostWrapper">
@@ -20,10 +20,12 @@ export default function SinglePost() {
             <span className='singlePostAuthor' >Author: <b>Agemo</b> </span>
              <span className='singlePostDate'>1 hour ago </span>
         </div>
-        <p>
+        <p className='singlePostDesc'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, cumque autem reiciendis beatae cum ipsam nisi quasi facere esse laboriosam pariatur praesentium numquam temporibus mollitia. Quaerat molestias repellat sequi porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, cumque autem reiciendis beatae cum ipsam nisi quasi facere esse laboriosam pariatur praesentium numquam temporibus mollitia. Quaerat molestias repellat sequi porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, cumque autem reiciendis beatae cum ipsam nisi quasi facere esse laboriosam pariatur praesentium numquam temporibus mollitia. Quaerat molestias repellat sequi porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, cumque autem reiciendis beatae cum ipsam nisi quasi facere esse laboriosam pariatur praesentium numquam temporibus mollitia. Quaerat molestias repellat sequi porro?
         </p>
       </div>
     </div>
   )
 }
+
+export default SinglePost;
