@@ -47,6 +47,15 @@
 
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: #555;
+}
+
 .topListItem {
     margin-right: 20px;
     font-size: 18px;

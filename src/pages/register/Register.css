@@ -1,0 +1,55 @@
+
+.register {
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), 
+                url("https://img.freepik.com/premium-photo/top-view-creative-designer-workspace-with-smart-phone-laptop-color-swath_35674-14434.jpg");
+    background-size: cover;
+}
+
+
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color:white ;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
